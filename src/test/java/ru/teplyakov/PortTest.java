@@ -13,49 +13,9 @@ import static ru.teplyakov.Port.getUniqueOrderedGroups;
 
 class PortTest {
 
-//    @BeforeEach
-//    void setUp() {
-//    }
-
-//    static Stream<Arguments> provideLists() {
-//        return Stream.of(
-//                Arguments.of(Arrays.asList(1, 2, 3), Arrays.asList(4, 5, 6), Arrays.asList(7, 8, 9)),
-//                Arguments.of(Arrays.asList(10, 20, 30), Arrays.asList(40, 50, 60), Arrays.asList(70, 80, 90)),
-//                Arguments.of(Arrays.asList(100, 200, 300), Arrays.asList(400, 500, 600), Arrays.asList(700, 800, 900))
-//        );
-//    }
-
-//    @ParameterizedTest
-//    @MethodSource("provideLists")
-//    void testLists(List<Integer> list1, List<Integer> list2, List<Integer> list3) {
-//        // Проверка для всех 3 списков
-//        assertEquals(3, list1.size());
-//        assertEquals(3, list2.size());
-//        assertEquals(3, list3.size());
-//        // Добавьте здесь другие проверки, которые вам нужны
-//    }
-
-    // Стандартный тест, который можно добавить для сравнения
-//    @Test
-//    void standardTest() {
-//        List<Integer> list = Arrays.asList(1, 2, 3);
-//        assertEquals(3, list.size());
-//    }
-
-//    @AfterEach
-//    void tearDown() {
-//    }
-
     @Test
     void convertIndexesToSequencesTest() {
 
-//        String[] indexes = {"1,3-5","3-4"};
-//        String[] indexes = {"1,3-5", "4,2-5", "2", "", " ", "3-4"};
-//        String[] indexes = {"9,12", "1,3-5", "4,2-5", "2", "", " ", "3-4"};
-//        String[] indexes = {"2,4", "2,4"};
-
-//        String[] indexes = {"4,2-5"};
-//        String[] indexes = {"1,3-5", "2", "3-4", "10-12"};
         List<List<Integer>> ans = new ArrayList<>();
         ans.add(new ArrayList<>());
         ans.add(new ArrayList<>());

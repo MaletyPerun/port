@@ -56,11 +56,4 @@ public class Port {
             }
         }
     }
-
-    public static void main(String[] args) {
-        String[] indexes = {"1,3-5", "2", "3-4"};
-        List<List<Integer>> sequences = convertIndexesToSequencesStream(indexes);
-        List<List<Integer>> groups = getUniqueOrderedGroups(sequences);
-        System.out.println(groups);
-    }
 }
